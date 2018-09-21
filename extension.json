@@ -1,0 +1,26 @@
+{
+    "name": "G Analytics",
+    "title": "G Analytics",
+    "description": "G Analytics",
+    "services": [
+        "Customizer"
+    ],
+    "state": "enabled",
+    "extensions": [
+        {
+            "name": "Extension",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
+                    "<directorio raíz de tu repo de customizer>/googleAnalytics.js"
+                ],
+                "include-repo": {
+                    "name": "collaboration"
+                }
+            },
+            "path": "global",
+            "application": "G Analytics",
+            "state": "enabled"
+        }
+    ]
+}
